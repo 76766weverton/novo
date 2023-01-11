@@ -40,11 +40,11 @@
                     
                     { id: 5, pergunta: "Onde fica a sede da bolsa de valores?", dificuldade: 0, resposta: "São Paulo", falsas: ["Bahia",], conjunto: "educa" }, 
                     
-                    { id: 6, pergunta: "Uma sociedade de crédito imobiliário, uma financeira e um banco de investimento se unirão formando um banco múltiplo. Este banco deverá?", dificuldade: 0, resposta: "Operar com um CNPJ para cada carteira, mas podendo publicar um único balanço", falsas: ["Operar com um único CNPJ e publicar um balanço para cada carteira"], conjunto: "educa" }, 
+                    { id: 6, pergunta: "Poupaça é um bom investimento para quem não quer se expor ao risco?", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }, 
                     
                     { id: 7, pergunta: "Presidente do CMN (Conselho Monetário Nacional)?", dificuldade: 0, resposta: "Ministro da Fazenda", falsas: ["Presidente do Bacen"], conjunto: "educa" }, 
                     
-                    { id: 8, pergunta: "A respeito do Sistema Financeiro Nacional (SFN)?", dificuldade: 0, resposta: "Formado por instituições normativas, executivas, fiscalizadoras, dentro outras múltiplas outras distintas instituições do subsistema de intermediação. ", falsas: ["Formado pelo Bacen e CV"], conjunto: "educa" }, 
+                    { id: 8, pergunta: "Daytrade é uma boa opção para quem quer investir a logo prazo?", dificuldade: 0, resposta: "Errado ", falsas: ["Errado"], conjunto: "educa" }, 
                     
                     { id: 9, pergunta: "O Conselho Monetário Nacional, dentre outras funções, deve?", dificuldade: 0, resposta: "Regular os índices de inflação, a fim de evitar desequilíbrios", falsas: ["Fiscalizar os mercados de capitais"], conjunto: "educa" }, 
                     
@@ -79,10 +79,10 @@
                     
                     { id: 24, pergunta: "Quais das instituições listadas abaixo estão autorizadas pelo BACEN a captar recursos de depósito à vista??", dificuldade: 0, resposta: "Bancos comerciais e bancos múltiplos com carteira comercial", falsas: ["Somente bancos comerciais"], conjunto: "educa" }, 
                     
-                    { id: 25, pergunta: "Quais das intuições listadas abaixo é o órgão executivo encarregado de fiscalizar o funcionamento das seguradoras, corretoras de seguro e entidades de previdência privada aberta?", dificuldade: 0, resposta: "Susep i", falsas: ["CNSP"], conjunto: "educa" }, 
+                    { id: 25, pergunta: "Apenas Banco central controla tudo na Bolsa de Valores?", dificuldade: 0, resposta: "Errado", falsas: ["Certo"], conjunto: "educa" }, 
                     
                     
-                    { id: 26, pergunta: "Com relação ao BACEN e suas funções, assinale a alternativa correta?", dificuldade: 0, resposta: "Comprar e vender títulos públicos federais para exercer a política monetária.", falsas: ["Fiscalizar as emissões de valores mobiliários."], conjunto: "educa"
+                    { id: 26, pergunta: "25+36-3×5-2?", dificuldade: 0, resposta: "44", falsas: ["45"], conjunto: "educa"
                     }, 
                     
                     { id: 27, pergunta: "Mercado Financeiro é de alto risco?", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }, 
@@ -98,11 +98,11 @@
                     
                     { id: 32, pergunta: "No mercado Finaceiro existe uma padrão de mercado?", dificuldade: 0, resposta: "Errado", falsas: ["Certo"], conjunto: "educa" }, 
                     
-                    { id: 33, pergunta: "Commodities são produtos de origem agropecuária ou de extração mineral, em estado bruto ou pequeno grau de industrialização, produzidos em larga escala e destinados ao comércio externo?", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }, 
+                    { id: 33, pergunta: "Para investir nomercado financeiro precisa ser maior de 18 anos?", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }, 
                     
                     
                     
-                    { id: 35, pergunta: "O petróleo é um líquido natural, inflamável, oleoso, de cheiro característico e com densidade menor que a da água. É uma mistura complexa de hidrocarbonetos, ou seja, de substâncias orgânicas formadas apenas por hidrogênio e carbono.", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }]
+                    { id: 35, pergunta: "Mercado não é para amadores?", dificuldade: 0, resposta: "Certo", falsas: ["Errado"], conjunto: "educa" }]
                 }
             }
         }, 
@@ -111,7 +111,7 @@
         
         
         
-        {}], 7: [function (a, e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.erroScreen = { template: '\n    <div class="geral splash2">\n        <div class="pure-g">\n            <div class="pure-u-1">\n                <h1>{{ mensagem }}</h1>\n                <h2>Navegue pelo IBGEeduca, estude as informações e arrase no quiz na próxima vez!</h2>\n                <br /><a class="resposta" href="index2.html">jogar de novo</a>\n            </div>\n        </div>\n    </div>\n    ', render: function (a, e) { (2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : document.body).innerHTML = this.getHTML(a, e) }, makeMensagem: function (a, e) { return 0 === a ? "Você não acertou nenhuma das " + e + " perguntas" : "Ops! Você acertou apenas<br> " + a + " de " + e + " perguntas..." }, getHTML: function (a, e) { return this.template.replace("{{ mensagem }}", this.makeMensagem(a, e)).replace("{{ total }}", e) } } }, {}], 8: [function (a, e, t) {
+        {}], 7: [function (a, e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.erroScreen = { template: '\n    <div class="geral splash2">\n        <div class="pure-g">\n            <div class="pure-u-1">\n                <h1>{{ mensagem }}</h1>\n                <h2>Estude mais e arrase no quiz na próxima vez!</h2>\n                <br /><a class="resposta" href="index2.html">jogar de novo</a>\n <a class="resposta" href="index2.html">Assistir Anúncios</a>           </div>\n        </div>\n    </div>\n    ', render: function (a, e) { (2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : document.body).innerHTML = this.getHTML(a, e) }, makeMensagem: function (a, e) { return 0 === a ? "Você não acertou nenhuma das " + e + " perguntas" : "Ops! Você acertou apenas<br> " + a + " de " + e + " perguntas..." }, getHTML: function (a, e) { return this.template.replace("{{ mensagem }}", this.makeMensagem(a, e)).replace("{{ total }}", e) } } }, {}], 8: [function (a, e, t) {
             "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.vitoriaScreen = {
                 template: '\n        <div class="geral splash">\n             <div class="pure-g">\n                <div class="pure-u-1">\n                    <h1>Parabéns! Você acertou<br>{{ acertos }} perguntas!</h1>\n                    <h2>Você sabe muito sobre o mercado financeiro.<br />&#169; Criado por Weverton Pontes</h2>\n<br /><a class="resposta" href="index2.html">jogar de novo</a>\n                </div>\n            </div>\n        </div>', render: function (a, e) { 
                     
@@ -137,7 +137,7 @@
     
          ], 
          
-         10: [function (a, e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.splashScreen = { template: '<div class="geral splash">\n <div class="pure-g">\n<div class="pure-u-1">\n<i.pngh">\n<h1>Mostre que você sabe tudo do Mercado Financeiro!</h1>\n  <button class="resposta">Começar</button>   <button class="resposta">Começar</button>  \n</div>\n</div>\n</div>', render: function (a, e) { (2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : document.body).innerHTML = this.getHTML(a, e) }, getHTML: function (a, e) { return this.template.replace("{{ numero }}", a < e ? a : "todas as") } } }, {}], 
+         10: [function (a, e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.splashScreen = { template: '<div class="geral splash">\n <div class="pure-g">\n<div class="pure-u-1">\n<i.pngh">\n<h1>Mostre que você sabe tudo do Mercado Financeiro!</h1>\n  <button class="resposta">Começar</button>  \n</div>\n</div>\n</div>', render: function (a, e) { (2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : document.body).innerHTML = this.getHTML(a, e) }, getHTML: function (a, e) { return this.template.replace("{{ numero }}", a < e ? a : "todas as") } } }, {}], 
          
          11: [function (a, e, t) { "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.tempoScreen = { template: '\n    <div class="geral splash2">\n        <div class="pure-g">\n            <div class="pure-u-1">\n                <h3>Seu tempo acabou!</h3>\n                <br /><a class="resposta" href="index2.html">jogar de novo</a>\n            </div>\n        </div>\n    </div>\n    ', render: function () { (0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : document.body).innerHTML = this.getHTML() }, getHTML: function () { return this.template } } }, {}]
          
