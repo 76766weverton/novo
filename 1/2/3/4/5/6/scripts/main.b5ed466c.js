@@ -52,7 +52,7 @@
                     
                     { id: 11, pergunta: "Qual o país do mundo com a maior extensão territorial?", dificuldade: 0, resposta: "Rússia", falsas: ["Canadá"], conjunto: "Weverton" }, 
                     
-                    { id: 12, pergunta: "As Distribuidoras de Títulos e Valores Mobiliários estão autorizadas a executar os serviços abaixo, com exceção de?", dificuldade: 0, resposta: "Administrar títulos de capitalização", falsas: ["Praticar operações no mercado de câmbio de taxas flutuantes"], conjunto: "Weverton"
+                    { id: 12, pergunta: " 5×5-5?", dificuldade: 0, resposta: "20", falsas: ["30"], conjunto: "Weverton"
                     }, 
                     
                     { id: 13, pergunta: "Dentre as funções da Comissão de Valores Mobiliários (CVM)?", dificuldade: 0, resposta: "Garantir o bom funcionamento da bolsa de valores", falsas: ["Aprovar orçamentos de crédito da economia"], conjunto: "Weverton" }, 
@@ -77,7 +77,7 @@
                     
                     { id: 23, pergunta: "O mercado de previdência aberta e capitalização é supervisionado pelo órgão?", dificuldade: 0, resposta: "Susep", falsas: ["CNSP (Conselho Nacional de Seguros Privados)"], conjunto: "Weverton" }, 
                     
-                    { id: 24, pergunta: "Quais das instituições listadas abaixo estão autorizadas pelo BACEN a captar recursos de depósito à vista??", dificuldade: 0, resposta: "Bancos comerciais e bancos múltiplos com carteira comercial", falsas: ["Somente bancos comerciais"], conjunto: "Weverton" }, 
+                    { id: 24, pergunta: "120+380?", dificuldade: 0, resposta: "500", falsas: ["420"], conjunto: "Weverton" }, 
                     
                     { id: 25, pergunta: "Apenas Banco central controla tudo na Bolsa de Valores?", dificuldade: 0, resposta: "Errado", falsas: ["Certo"], conjunto: "Weverton" }, 
                     
