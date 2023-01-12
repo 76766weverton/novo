@@ -27,7 +27,7 @@
 
         , { "../interfaces/index": 2, "../telas/erro.screen": 7, "../telas/ganhou.screen": 8, "../telas/questao.screen": 9, "../telas/splash.screen": 10, "../telas/tempo.screen": 11, "../utils/routes": 13 }], 6: [function (a, e, t) {
             "use strict"; Object.defineProperty(t, "__esModule", { value: !0 }); t.banco = {
-                educa: {
+                Weverton: {
                     0: [{ id: 1, pergunta: "O que significa a sigla B3??", dificuldade: 0, resposta: "Brasil, Bolsa, Balcão", falsas: ["Brasil, Bolsa, Bal", "Brasil, Bolivia, Barcelona", "Brasil, Banco, Balcão", "Banco, Bolsa, Balcão"], conjunto: "Weverton" },
 
 
